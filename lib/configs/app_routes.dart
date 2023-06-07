@@ -8,6 +8,8 @@ class AppRouter {
         return LoadingScreen.route();
       case LoadingScreen.routeName:
         return LoadingScreen.route();
+      case LoginScreen.routeName:
+        return LoginScreen.route();
       default:
         return _errorRoute();
     }
